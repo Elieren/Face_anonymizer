@@ -32,6 +32,10 @@ Distort voice
 
 ![Loading](preview\Distort_voice.mp3)
 
+*P.S. Voice taken from YouTube channel Uldan Dub*
+
+### Information
+
 __The quality of the result depends on the specified frequency Hz.__
 
 Also, the audio frequency will change randomly in the ranges from and to.
