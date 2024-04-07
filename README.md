@@ -47,7 +47,7 @@ Also, the audio frequency will change randomly in the ranges from and to.
 pip install -r requirements.txt
 ```
 
-### Launch
+### Run
 
 ```
 python main.py
