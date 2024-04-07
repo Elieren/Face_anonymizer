@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Designe\main.ui'
+# Form implementation generated from reading ui file 'Design\main.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.10
 #
@@ -117,18 +117,27 @@ class Ui_MainWindow(object):
         self.groupBox_3.setObjectName("groupBox_3")
         self.verticalLayout_3 = QtWidgets.QVBoxLayout(self.groupBox_3)
         self.verticalLayout_3.setObjectName("verticalLayout_3")
+        self.label = QtWidgets.QLabel(self.groupBox_3)
+        self.label.setObjectName("label")
+        self.verticalLayout_3.addWidget(self.label)
         self.spinBox = QtWidgets.QSpinBox(self.groupBox_3)
         self.spinBox.setMinimum(-10000)
         self.spinBox.setMaximum(10000)
         self.spinBox.setProperty("value", 507)
         self.spinBox.setObjectName("spinBox")
         self.verticalLayout_3.addWidget(self.spinBox)
+        self.label_2 = QtWidgets.QLabel(self.groupBox_3)
+        self.label_2.setObjectName("label_2")
+        self.verticalLayout_3.addWidget(self.label_2)
         self.spinBox_2 = QtWidgets.QSpinBox(self.groupBox_3)
         self.spinBox_2.setMinimum(-10000)
         self.spinBox_2.setMaximum(10000)
         self.spinBox_2.setProperty("value", 501)
         self.spinBox_2.setObjectName("spinBox_2")
         self.verticalLayout_3.addWidget(self.spinBox_2)
+        self.label_3 = QtWidgets.QLabel(self.groupBox_3)
+        self.label_3.setObjectName("label_3")
+        self.verticalLayout_3.addWidget(self.label_3)
         self.spinBox_3 = QtWidgets.QSpinBox(self.groupBox_3)
         self.spinBox_3.setMinimum(-10000)
         self.spinBox_3.setMaximum(10000)
@@ -157,9 +166,12 @@ class Ui_MainWindow(object):
         self.radioButton_3.setText(_translate("MainWindow", "Default"))
         self.radioButton_4.setText(_translate("MainWindow", "Distort voice"))
         self.groupBox_4.setTitle(_translate("MainWindow", "Model"))
-        self.pushButton_3.setText(_translate("MainWindow", "Model"))
+        self.pushButton_3.setText(_translate("MainWindow", "Select model"))
         self.checkBox.setText(_translate("MainWindow", "Model status"))
         self.groupBox.setTitle(_translate("MainWindow", "Video"))
         self.radioButton.setText(_translate("MainWindow", "Default"))
         self.radioButton_2.setText(_translate("MainWindow", "Blur"))
         self.groupBox_3.setTitle(_translate("MainWindow", "Distort voice"))
+        self.label.setText(_translate("MainWindow", "Start frequency (Hz)"))
+        self.label_2.setText(_translate("MainWindow", "Minimum threshold frequency level (Hz)"))
+        self.label_3.setText(_translate("MainWindow", "Maximum threshold frequency level (Hz)"))

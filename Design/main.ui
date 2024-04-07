@@ -146,7 +146,7 @@
        <item row="0" column="0">
         <widget class="QPushButton" name="pushButton_3">
          <property name="text">
-          <string>Model</string>
+          <string>Select model</string>
          </property>
         </widget>
        </item>
@@ -202,6 +202,13 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Start frequency (Hz)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QSpinBox" name="spinBox">
          <property name="minimum">
           <number>-10000</number>
@@ -215,6 +222,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Minimum threshold frequency level (Hz)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QSpinBox" name="spinBox_2">
          <property name="minimum">
           <number>-10000</number>
@@ -224,6 +238,13 @@
          </property>
          <property name="value">
           <number>501</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Maximum threshold frequency level (Hz)</string>
          </property>
         </widget>
        </item>
