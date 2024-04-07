@@ -6,7 +6,7 @@ The converted video and audio can be used in OBS, Discord, Zoom and other progra
 
 ### Program interface
 
-![Loading](preview\Design.png)
+![Loading](preview/Design.png)
 
 ### Video
 
@@ -16,21 +16,21 @@ __If you have Nvidia video cards with support for CUDA cores, then you can selec
 
 Default
 
-![Loading](preview\Default.gif)
+![Loading](preview/Default.gif)
 
 Blur
 
-![Loading](preview\Blur.gif)
+![Loading](preview/Blur.gif)
 
 ### Audio
 
 Default
 
-![Loading](preview\Default.mp3)
+![Loading](preview/Default.mp3)
 
 Distort voice
 
-![Loading](preview\Distort_voice.mp3)
+![Loading](preview/Distort_voice.mp3)
 
 *P.S. Voice taken from YouTube channel Uldan Dub*
 
